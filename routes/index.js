@@ -14,7 +14,7 @@ var Post = mongoose.model('Post');
 var Comment = mongoose.model('Comment');
 var User = mongoose.model('User');
 
-mongoose.connect(process.env.MONGOLAB_URI);
+
 
 var auth = jwt({secret: 'SECRET', userProperty: 'payload'});
 
