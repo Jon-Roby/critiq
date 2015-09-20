@@ -1,0 +1,155 @@
+body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 400;
+
+  background: white;
+}
+
+a {
+  color: #2ECC71; /* #00B7FF; */
+}
+
+
+
+input {
+  border: none;
+  border-bottom: 1px solid #EEEEEE;
+  height: 30px;
+}
+
+button {
+
+  border: 5px solid #2ECC71;
+  background-color: #2ECC71;
+  color: #2C3E50;
+}
+/***** NAVBAR *****/
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  background-color: #2C3E50;
+}
+
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#navLeft {
+}
+
+#navRight {
+  display: flex;
+  font-weight: 500;
+
+}
+
+#navRight div {
+  padding-right: 15px;
+}
+
+#critiqLogo {
+  font-size: 175%;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+/***** PAGE *****/
+
+
+
+.pageContainer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pageLeft {
+  width: 60%;
+
+  background-color: white;
+
+}
+
+.pageRight {
+  width: 30%;
+
+}
+
+.pageRightDiv {
+  border: 1gs
+  background-color: black;
+}
+
+textarea {
+  height: 278px;
+  max-height: 500px;
+  border: none;
+
+}
+
+#postsList, #postContainer {
+  background: white;
+
+  margin-bottom: 10px;
+  min-height: 110px;
+
+  border-bottom: 1px solid #EEEEEE;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 5px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postLink a {
+  color: #4183D7;
+}
+
+
+.submitForm {
+  border: 1px solid #EEEEEE;
+  display: flex;
+  flex-direction: column;
+}
+
+#theCritiq a {
+
+}
+
+a:hover {
+  color: #F64747;
+  text-decoration: none;
+}
+
+.author {
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.commentsSection {
+  background-color: #EEEEEE;
+  border: 3px solid #EEEEEE;
+}
